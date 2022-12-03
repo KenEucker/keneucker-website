@@ -16,7 +16,7 @@ a:hover {
 
 body h1,
 .h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 46px;
   line-height: 1.4;
   font-weight: 700;
@@ -26,7 +26,7 @@ body h1,
 
 body h2,
 .h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 36px;
   line-height: 1.4;
   font-weight: 700;
@@ -35,7 +35,7 @@ body h2,
 }
 body h3,
 .h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 28px;
   line-height: 1.4;
   font-weight: 400;
@@ -45,7 +45,7 @@ body h3,
 
 body h4,
 .h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 24px;
   line-height: 1.4;
   font-weight: 400;
@@ -54,7 +54,7 @@ body h4,
 }
 
 .display {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-weight: 700;
   font-size: 75px;
   letter-spacing: 0.06em;
@@ -63,7 +63,7 @@ body h4,
 
 body p,
 .p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 23px;
   line-height: 1.4;
   font-weight: 300;
@@ -71,7 +71,7 @@ body p,
 }
 
 button {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   position: relative;
   display: inline-block;
   text-decoration: none;

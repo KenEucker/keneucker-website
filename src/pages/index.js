@@ -1,6 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Head from "next/head";
-import Image from "next/image";
 import Intro from "../components/Intro";
 import About from "../components/About";
 import Why from "../components/Why";
@@ -8,36 +6,23 @@ import How from "../components/How";
 import What from "../components/What";
 import Where from "../components/Where";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import SocialLinks from "../components/SocialLinks";
 
 function index() {
   return (
     <>
-      <Head>
-        <title>Ken Eucker</title>
-        <meta name="title" content="Ken Eucker" />
-        <meta
-          name="description"
-          content="Software Engineer with a decade of experience in NodeJs, collaborating on multiple open-source projects. Author/Maintainer of imgur and biketag-api on npm"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="language" content="English" />
-        <meta name="author" content="Ken Eucker" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
-      </Head>
 
-      {/* Components */}
-      {/* Intro Header */}
+      {/* Head */}
+      <Header
+        title={"Ken Eucker"}
+        description={"Software Engineer with a decade of experience in NodeJs, collaborating on multiple open-source projects. Author/Maintainer of imgur and biketag-api on npm"}
+        author={"Ken Eucker"}
+      />
+
+      {/* Intro Banner */}
       <Intro 
         firstName={"Ken"}
-        lasstName={"Eucker"}
         content={
           <p>
             Hello, I'm Ken Eucker. I love to design applications, write poetry,
@@ -51,6 +36,7 @@ function index() {
         srcHeader={"/img/ken_eucker_cartoon.png"}
         altHeader={"Ken Eucker"}
       />
+
       {/* About Me professionally */}
       <About 
         img={"/img/ken_eucker_boom_headshot.png"}
@@ -108,6 +94,7 @@ function index() {
           </p>
         }
       />
+
       {/* About Me personally */}
       <About 
         img={"/img/Ken_Eucker_BlackRock_Ranger.jpg"}
@@ -146,12 +133,14 @@ function index() {
           </p>
         }
       />
+
       {/* Where you can find me */}
       <Where />
       {/* What you can find me doing */}
       <What />
       {/* Why you can find me doing it */}
       <Why />
+
       {/* How I can continue doing it */}
       <How 
         availabilty={
