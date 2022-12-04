@@ -7,18 +7,21 @@ import What from "../components/What";
 import Where from "../components/Where";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import PreLoad from "../components/PreLoad";
 import SocialLinks from "../components/SocialLinks";
 
 function index() {
   return (
     <>
-
       {/* Head */}
       <Header
         title={"Ken Eucker"}
         description={"Software Engineer with a decade of experience in NodeJs, collaborating on multiple open-source projects. Author/Maintainer of imgur and biketag-api on npm"}
         author={"Ken Eucker"}
       />
+
+      {/* Preload Scripts */}
+      <PreLoad />
 
       {/* Intro Banner */}
       <Intro 

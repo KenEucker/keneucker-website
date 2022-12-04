@@ -14,9 +14,14 @@ a:hover {
   text-decoration: none;
 }
 
+html,
+body {
+  font-family: "Mona Sans";
+}
+
 body h1,
 .h1 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Mona Sans";
   font-size: 46px;
   line-height: 1.4;
   font-weight: 700;
@@ -26,7 +31,7 @@ body h1,
 
 body h2,
 .h2 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Mona Sans", sans-serif;
   font-size: 36px;
   line-height: 1.4;
   font-weight: 700;
@@ -35,7 +40,7 @@ body h2,
 }
 body h3,
 .h3 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Mona Sans", sans-serif;
   font-size: 28px;
   line-height: 1.4;
   font-weight: 400;
@@ -45,7 +50,7 @@ body h3,
 
 body h4,
 .h4 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Mona Sans", sans-serif;
   font-size: 24px;
   line-height: 1.4;
   font-weight: 400;
@@ -54,7 +59,7 @@ body h4,
 }
 
 .display {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Hubot Sans", sans-serif;
   font-weight: 700;
   font-size: 75px;
   letter-spacing: 0.06em;
@@ -63,7 +68,7 @@ body h4,
 
 body p,
 .p {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Hubot Sans", sans-serif;
   font-size: 23px;
   line-height: 1.4;
   font-weight: 300;
@@ -71,7 +76,7 @@ body p,
 }
 
 button {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Hubot Sans", sans-serif;
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -88,7 +93,7 @@ button {
   background-color: var(--link-clr);
   color: var(--prim-clr);
   cursor: pointer;
-  -webkit-appearance: none;
+  appearance: none;
   transition: all 0.3s;
   box-sizing: border-box;
   max-width: 100%;
@@ -224,7 +229,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: "Hubot Sans", sans-serif;
   font-size: 18px;
   letter-spacing: 1.3px;
   font-weight: 400;
@@ -299,6 +304,10 @@ h2.bold::after {
 
 .social-links a:hover {
   opacity: 0.7;
+}
+
+ul {
+  font-family: "Mona Sans";
 }
 
 @media (max-width: 900px) {

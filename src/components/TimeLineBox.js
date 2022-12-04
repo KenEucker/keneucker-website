@@ -7,10 +7,10 @@ function TimeLineBox(props) {
         <Image
           src={props?.img}
           alt={props?.title}
-          width={45}
-          height={45}
+          width={props?.imgWidth ?? 50}
+          height={props?.imgHeight ?? 50}
           style={{
-            objectFit: "contain",
+            // objectFit: "contain",
             maxWidth: "100%",
             height: "auto"
           }} />

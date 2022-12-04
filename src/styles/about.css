@@ -2,10 +2,6 @@
   padding: 30px 0;
 }
 
-.about-section.reversed .about-top {
-  flex-direction: row-reverse;
-}
-
 .about-top {
   display: flex;
   justify-content: center;
@@ -136,7 +132,7 @@
 }
 
 @media (max-width: 716px) {
-  .about-top {
+  .about-top, .reversed .about-top {
     flex-direction: column;
   }
 
@@ -184,5 +180,9 @@
   .about-info-more p {
     flex-direction: column;
     column-count: 2;
+  }
+
+  .about-section.reversed .about-top {
+    flex-direction: row-reverse;
   }
 }

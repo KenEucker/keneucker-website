@@ -26,7 +26,7 @@ export default function How() {
           </div>
           <div className="about-col">
             <TimeLineBox
-              img={"/img/Tag-Logo-Stacked-V2.svg"}
+              img={"/img/biketag-logo-1-medium.png"}
               title={"BikeTag.Org"}
               position={""}
               fromTo={"March 2018 - Present"}
