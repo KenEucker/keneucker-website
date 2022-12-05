@@ -83,10 +83,6 @@
   .main-content {
     padding: 20px;
   }
-
-  .main-content > div {
-    /* max-width: 80vw; */
-  }
 }
 
 @media (min-width: 767px) {
