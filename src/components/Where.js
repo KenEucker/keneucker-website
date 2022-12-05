@@ -47,7 +47,7 @@ export default function How() {
                 <p>
                   I became a Black Rock Ranger in 2019 to be part of the peer support team for Burning Man Project events focusing on emergency response, harm reduction, and de-escalation, as well as empowerment and support, in Gerlach, Nevada, and worldwide. I began Rangering at Portland's Regional Burning Man event in 2016 -- an event in my own backyard. I moved to Gerlach, Nevada, to Ranger full-time in the area with both the Black Rock City Department of Public Works as well as Black Rock Desert Nevada Operations.<br/><br/>
                   As a Ranger, a participant, I walk around event spaces and engage with friends, some of whom I'm meeting for the first time, building upon a history of social capital for which participants can trust and depend on to be available for aid at any time.<br/><br/>
-                  not a cop )'( not your mom
+                  not a cop ~ )'( ~ not your mom
                 </p>
               }
             />

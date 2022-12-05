@@ -1,8 +1,22 @@
-.skill-stars {
+.skill {
   position: relative;
+}
+
+.skill img {
+  min-height: 45px;
+  vertical-align: text-bottom;
+}
+
+.skill-stars {
+  margin: auto;
 }
 
 .skill-years {
   position: absolute;
-  top: -100%;
+  top: -5px;
+  right: -5px;
+  background-color: grey;
+  border-radius: 25%;
+  min-width: 20px;
+  text-align: center;
 }

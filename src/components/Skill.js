@@ -16,7 +16,7 @@ function Skill(props) {
         maxWidth: "100%",
         height: "auto"
       }} />
-      <SkillStars count={props?.stars} years={props?.years}/>
+    <SkillStars count={props?.stars} years={props?.years}/>
   </div>;
 }
 

@@ -100,11 +100,17 @@ export default function Why() {
           At the beginning of 2021 I knew that I needed to make some big changes
           in my life, but I didn't know where I would end up. In July of 2021, I 
           moved into a 22 foot airstream travel trailer and parked it in the 
-          Black Rock Desert while I volunteered in the are. One month later I 
+          Black Rock Desert while I volunteered in the area. One month later I 
           had purchased property with the intent to build a house. Flash forward 
           to the end of the year in 2022 and instead of building a new house, I
           got a double-wide put onto the property and then left the desert to 
-          travel some more.
+          travel some more. 2023 will be another phase of life that starts with 
+          a bit of stability while being totally untethered from physical 
+          residency. I welcome the nomadic life both in my career and in my personal 
+          life, forever seeking to make the distinction between these aspects of 
+          my life as minimal as possible.
+          <br />
+          <br />
         </div>
       </div>
         <button className="push-btn" onClick={() => setReadMore(!readmore)}>
