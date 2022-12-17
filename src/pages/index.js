@@ -36,7 +36,7 @@ function index() {
           </p>
         }
         resumeFile={"/img/pdf-icon.svg"}
-        srcHeader={"/img/ken_eucker_cartoon.png"}
+        srcHeader={"/img/ken-cartoon-headshot.png"}
         altHeader={"Ken Eucker"}
       />
 
