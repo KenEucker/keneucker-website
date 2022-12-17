@@ -22,7 +22,7 @@ function About(props) {
               }} />
           </div>
           <h2>{props?.name}</h2>
-          <div className="about-skills">
+          <div className="about-links">
             {props?.secondImg && 
             <>
               <Image
@@ -33,6 +33,24 @@ function About(props) {
               />
             </>}
             {props?.socialLinks}
+            {props?.resumeFile &&
+            <a href={props?.resumeFile} download={true}>
+              <button className="push-btn" style={{"background": 'hsl(0deg 95% 25%)'}}>
+                <span className="btn-front" style={{"background": '#ff0000'}}>
+                  <span>Resume</span>
+                  <Image
+                    src="/img/pdf-icon.svg"
+                    alt="pdf icon"
+                    width={20}
+                    height={25}
+                    style={{
+                      maxWidth: "100%",
+                      height: "auto",
+                      objectFit: "cover"
+                    }} />
+                </span>
+              </button>
+            </a>}
           </div>
         </div>
         <div className="about-info">

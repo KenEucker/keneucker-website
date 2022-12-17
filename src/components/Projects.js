@@ -6,23 +6,41 @@ function Projects(props) {
     <>
       <div className="projects-section">
           <Project
+            img={"/img/graphql-demo.avif"}
+            title={"@latest"}
+            description={<>
+              This is a stack I hacked together while working on a Udemy course 
+              for GraphQL. It's Vite + Vute + Apollo all in TypeScript, with some 
+              additional flashy stuff in a simple demo. Free for anyone to pick up!
+            </>}
+            techs={"Vue, Vite, Apollo, TypeScript, VueUse"}
+            Github={"https://github.com/KenEucker/GraphQL-Demo"}
+            LiveLink={"https://keneucker-graphql.netlify.app"}
+            preview={props?.preview}
+          />
+          <Project
+            img={"/img/biketag-api-logo.jpg"}
+            title={"Biketag-Api"}
+            description={<>
+              The javascript client for interacting with BikeTag games. This is the foundational 
+              library that drives the BikeTag 2.0 web application. Members of the community can 
+              also develop their own tools and interfaces to BikeTag data using the BikeTag API!
+            </>}
+            techs={"TypeScript, Webpack"}
+            Github={"https://github.com/KenEucker/biketag-api"}
+            LiveLink={"https://keneucker.github.io/biketag-api/"}
+            preview={props?.preview}
+          />
+          <Project
             img={"/img/imgur_logo.png"}
             title={"imgur"}
             description={<>
-              In 2021 I became the author and maintainer of the npm project imgur, 
+              In 2021, I became the author and maintainer of the npm project imgur, 
               a project I had been contributing to for several years, when the original 
               author passed the project on for continued active development. I have 
               since released imgur@2.0.0 which is a newly isomorphic library written 
               in TypeScript. I am happy to be part of such a project and I look forward 
               to contributing to Free and Open-Source Software any moment I can.
-              <br/>
-              <br/>
-              Most of the work I do is behind the scenes, which means that the better 
-              job I do the more unlikely you are to be able to notice it. I have a mind 
-              for the functional and when I connect technologies, they just work. I am 
-              actively growing my skills on the artistic, aesthetically pleasing, and 
-              streamlined aspects of UX with software and am a student of the sciences 
-              of human-computer interaction.
             </>}
             techs={"TypeScript, Webpack"}
             Github={"https://github.com/KenEucker/imgur"}
@@ -45,19 +63,6 @@ function Projects(props) {
             techs={"TypeScript, Vue, Vite, Api"}
             Github={"https://github.com/KenEucker/biketag-vue"}
             LiveLink={"https://biketag.org/"}
-            preview={props?.preview}
-          />
-          <Project
-            img={"/img/biketag-api-logo.jpg"}
-            title={"Biketag-Api"}
-            description={<>
-              The javascript client for interacting with BikeTag games. This is the foundational 
-              library that drives the BikeTag 2.0 web application. Members of the community can 
-              also develop their own tools and interfaces to BikeTag data using the BikeTag API!
-            </>}
-            techs={"TypeScript, Webpack"}
-            Github={"https://github.com/KenEucker/biketag-api"}
-            LiveLink={"https://keneucker.github.io/biketag-api/"}
             preview={props?.preview}
           />
       </div>

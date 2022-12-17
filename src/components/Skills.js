@@ -1,4 +1,4 @@
-import Skill from "./Skill";
+import Skill    from "./Skill";
 
 function Skills() {
   return (
@@ -27,6 +27,22 @@ function Skills() {
               text="javascript for 10+ years"
               stars={4}
               years={"10+"}
+            />
+          </div>
+          <div className="skill-thumbnail">
+            <Skill
+              img="/img/vue.svg"
+              text="vue for 3 years"
+              stars={3}
+              years={3}
+            />
+          </div>
+          <div className="skill-thumbnail">
+            <Skill
+              img="/img/GraphQL_Logo.svg"
+              text="graphql for 1 year"
+              stars={2}
+              years={1}
             />
           </div>
           <div className="skill-thumbnail">

@@ -5,6 +5,7 @@ function Skill(props) {
   return <div className="skill">
     <Image
       src={props?.img}
+      title={props?.text}
       alt={props?.text}
       width={15}
       height={15}

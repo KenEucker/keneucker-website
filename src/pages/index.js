@@ -28,15 +28,14 @@ function index() {
         firstName={"Ken"}
         content={
           <p>
-            Hello, I'm Ken Eucker. I love to design applications, write poetry,
+            I love to design applications, write poetry,
             ride my bicycle, hike to hot springs, backpack through forests, take
             candid photographs, and talk about the intersection of technology
             and psychology. I also volunteer my time and energy to various projects 
             throughout the year.
           </p>
         }
-        resumeFile={"/img/pdf-icon.svg"}
-        srcHeader={"/img/ken-cartoon-headshot.png"}
+        srcHeader={"/img/ken-ai-cartoon.png"}
         altHeader={"Ken Eucker"}
       />
 
@@ -46,6 +45,7 @@ function index() {
         name={"Ken Eucker"}
         title={"Software Engineer"}
         socialLinks={<SocialLinks />}
+        resumeFile={"/doc/Ken_Eucker_Resume_2023.pdf"}
         description={
           <p>
             I am a Software Engineer, classically trained in
