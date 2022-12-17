@@ -133,6 +133,9 @@ function index() {
             shared reality such a wonderful place to express ourselves and the
             art that we all bring to the world. I am happy to be able to 
             participate in this community nearly year round with the Rangers.
+            <br />
+            <br />
+            Buy the ticket, take the ride.
           </p>
         }
       />
