@@ -1,9 +1,12 @@
 import Image from "next/image";
+import { useState } from "react";
 
 function Project(props) {
+  const [peek, setPeek] = useState(false);
+
   return (
     <div className="project-card">
-      <div className="pct-thumbnail">
+      <div className="pct-thumbnail" onClick={() => {setPeek(!peek)}}>
         <Image
           src={props?.img}
           alt={props?.img}
@@ -17,7 +20,7 @@ function Project(props) {
       {props?.preview && <>
         <h3>{props?.title}</h3>
       </>}
-      {!props?.preview && <>
+      {(!props?.preview || peek) && <>
         <div className="project-card-info">
           <h3>{props?.title}</h3>
           <div className="project-tech">{props?.techs}</div>

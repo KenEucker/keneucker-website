@@ -6,16 +6,18 @@ function Projects(props) {
     <>
       <div className="projects-section">
           <Project
-            img={"/img/graphql-demo.avif"}
+            img={"/img/pov.png"}
             title={"@latest"}
             description={<>
-              This is a stack I hacked together while working on a Udemy course 
-              for GraphQL. It's Vite + Vute + Apollo all in TypeScript, with some 
-              additional flashy stuff in a simple demo. Free for anyone to pick up!
+              This project, dubbed "Point Of Vue", was originally developed in conjunction with 
+              learning GraphQL and taking a Udemy course online. It quickly deviated from the 
+              course and became a fully functional application using the newest features of 
+              everything I could incorporate from GraphQL to Vue3 to Auth0 authentication. And 
+              of course it's open source and readily available to use!
             </>}
             techs={"Vue, Vite, Apollo, TypeScript, VueUse"}
             Github={"https://github.com/KenEucker/GraphQL-Demo"}
-            LiveLink={"https://keneucker-graphql.netlify.app"}
+            LiveLink={"https://point-of-vue-web.onrender.com/"}
             preview={props?.preview}
           />
           <Project

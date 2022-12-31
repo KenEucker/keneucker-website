@@ -41,16 +41,16 @@ function Skills() {
             <Skill
               img="/img/GraphQL_Logo.svg"
               text="graphql for 1 year"
-              stars={2}
+              stars={3}
               years={1}
             />
           </div>
           <div className="skill-thumbnail">
             <Skill
-              img="/img/react.svg"
-              text="react for 5 years"
-              stars={3}
-              years={5}
+              img="/img/prisma.png"
+              text="prisma for one year"
+              stars={1}
+              years={1}
             />
           </div>
           <div className="skill-thumbnail">
@@ -79,6 +79,14 @@ function Skills() {
           </div>
           <div className="skill-thumbnail">
             <Skill
+              img="/img/react.svg"
+              text="react for 5 years"
+              stars={3}
+              years={5}
+            />
+          </div>
+          <div className="skill-thumbnail">
+            <Skill
               img="/img/liquidjs-logo.png"
               text="liquidjs for 2 years"
               stars={2}
@@ -91,6 +99,14 @@ function Skills() {
               text="typescript for 4 years"
               stars={3}
               years={4}
+            />
+          </div>
+          <div className="skill-thumbnail">
+            <Skill
+              img="/img/vite.svg"
+              text="Vite for 3 years"
+              stars={3}
+              years={3}
             />
           </div>
           <div className="skill-thumbnail">
