@@ -60,9 +60,12 @@ function index() {
             languages mysql, MSSQL, and Mongodb. 
             <br />
             <br />
-            I primarily work with node applications and node built 
-            front-end projects at the moment. Previously to this I was working 
-            on WordPress projects migrating to React front-end experiences.
+            I primarily work with node applications and node built front-end. I 
+            love working with Vue and I prefer it over React but I also end up
+            doing a lot of React work. This website was built in React. I also
+            work with GraphQL and federated databases and am up to date with 
+            the latest serverless deployments for Netlify, Heroku, Render.com, 
+            Google Cloud Platform, AWS, and more.
           </p>
         }
         readMoreText={
