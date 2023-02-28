@@ -49,25 +49,21 @@ function index() {
         description={
           <div>
             <p>
-              As a Software Engineer with a background in object-oriented
-              programming, I have a strong track record of building the
-              backend of web-connected properties. I am proficient in a
-              variety of programming languages, including TypeScript,
-              JavaScript, PHP, C#, HTML, CSS, and MySQL, MSSQL, and MongoDB.
-            </p>
-            <p>
-              I specialize in developing node applications and front-ends
-              built with node. While I am experienced in using both Vue and
-              React, I have a particular affinity for Vue and often work with
-              it on projects. In addition, I have expertise in GraphQL and
-              federated databases, and am proficient in deploying serverless
-              applications on platforms such as Netlify, Heroku, Render.com,
-              Google Cloud Platform, and AWS.
-            </p>
-            <p>
-              I am committed to staying up to date with the latest technologies
-              and best practices in my field, and always strive to produce
-              high-quality, reliable code.
+              I am a Software Engineer, classically trained in
+              object-oriented programming, who likes to write universal
+              javascript, with extensive experience building the backend of
+              web-connected properties.
+              <br />
+              <br />
+              I have a wide range of skills writing in the serverside
+              languages TypeScript, Javascript, PHP, C#, and the clientside 
+              languages HTML, Javascript, CSS, TypeScript, including the database 
+              languages mysql, MSSQL, and Mongodb. 
+              <br />
+              <br />
+              I primarily work with node applications and node built 
+              front-end projects at the moment. Previously to this I was working 
+              on WordPress projects migrating to React front-end experiences.
             </p>
           </div>
         }
@@ -80,24 +76,22 @@ function index() {
               blogs over the years trying to find out where my niche is. I have
               been building a universe for a novel that I want to write entirely
               in javascript. I have some odd ideas.
-            </p>
-            <p>
+              <br />
+              <br />
               I am a maker; I woodwork, weld metal, solder electronics,
               program microcontrollers, and I like to find projects that
               combines these skills. I have a desire to create kinetic water
               art installations.
-            </p>
-            <p>
-
+              <br />
+              <br />
               I am an adventurer; I like to go biking, hiking, backpacking,
               and traveling to remote areas to connect with the natural world
               and I find those experiences to be invaluable. I like to believe
               that life happens in between the moments that you plan for, and I
               actively seek out adventures that will grow who I am as a person
               with those around me.
-            </p>
-            <p>
-
+              <br />
+              <br />
               I am a contributor; I contribute to a range of projects in various
               capacities by writing open source code and submitting pull requests
               on GitHub, by being a member of cycling related non-profit organizations
@@ -137,16 +131,16 @@ function index() {
               providers of reliable information, facilitators of public safety (with 
               the expectation that everyone reads the back of their ticket, of course!), 
               and navigators of the edge of chaos.
-            </p>
-            <p>
+              <br />
+              <br />
+
               Rangering is, to me personally, a way for me to connect with people 
               within my community and to be able to give back to what makes our 
               shared reality such a wonderful place to express ourselves and the
               art that we all bring to the world. I am happy to be able to 
               participate in this community nearly year round with the Rangers.
             </p>
-            <br/>
-            <br/>
+            <br />
             <p>
               Buy the ticket, take the ride.
             </p>

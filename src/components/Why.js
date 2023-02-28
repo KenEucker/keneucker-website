@@ -49,13 +49,15 @@ export default function Why() {
           languages, including BASIC, Pascal, C, C++, PHP, and ASP.NET, and have applied my 
           skills to projects in web development, microcontroller programming, and game 
           development.
-
+          <br />
+          <br />
           I have a diverse background in the tech industry, having worked at web development 
           agencies, product companies, and as a freelancer. I am particularly interested in 
           open source development and have made it a focus of my work. In my current role as 
           a senior developer, I am committed to promoting the use of open source projects and 
           ensuring that original authors are credited for their contributions.
-
+          <br />
+          <br />
           In 2021, I made the decision to embrace a nomadic lifestyle, both in my career and 
           personal life. I currently live in a 22-foot airstream travel trailer and am 
           committed to maintaining a balance between stability and flexibility in my 
