@@ -57,7 +57,7 @@ function Projects(props) {
               being played. So that year we (my friend & I) launched a tool that uploaded 
               two images (found it tag, new mystery location) and provided fields for 
               credit and a hint for the next round. That project continues to evolve and 
-              we have successfully scaled the project to include 7 cities across the world 
+              we have successfully scaled the project to include 50 cities across the world 
               including: Indianapolis, Indiana, Inverness, Scotland, and Vienna, Austria! 
               I started this endeavor as an entirely open source project. You can see how 
               that project on Github (click below)

@@ -32,7 +32,7 @@ export default function How() {
               fromTo={"March 2018 - Present"}
               Desc={readMoreOpen &&
                 <p>
-                  BikeTag.Org is an open-source project that I started with a friend back in 2018 after they approached me with an app idea. The idea was simple: create a tool to play the game of BikeTag easier than it was currently being played. So that year we launched a tool that uploaded two images (found it tag, new mystery location) and provided fields for credit and a hint for the next round. That project continues to evolve and we have successfully scaled the project to include 7 cities across the world including: Indianapolis, Indiana, Inverness, Scotland, and Vienna, Austria! I started this endeavor as an entirely open source project. You can see how that project is <a href="https://github.com/keneucker/biketag-website/projects">managed on GitHub, here.</a>
+                  BikeTag.Org is an open-source project that I started with a friend back in 2018 after they approached me with an app idea. The idea was simple: create a tool to play the game of BikeTag easier than it was currently being played. So that year we launched a tool that uploaded two images (found it tag, new mystery location) and provided fields for credit and a hint for the next round. That project continues to evolve and we have successfully scaled the project to include 50 cities across the world including: Indianapolis, Indiana, Inverness, Scotland, and Vienna, Austria! I started this endeavor as an entirely open source project. You can see how that project is <a href="https://github.com/keneucker/biketag-website/projects">managed on GitHub, here.</a>
                 </p>
               }
             />

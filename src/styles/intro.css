@@ -66,13 +66,13 @@
   }
 
   .hs-thumbnail .hs-bolb {
-    width: 310px;
-    height: 310px;
+    width: 420px;
+    height: 420px;
   }
 
   .hs-thumbnail .hs-bolb img {
-    width: 230px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
 
   .hs-content h1 > span {

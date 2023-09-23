@@ -9,7 +9,7 @@
 
 .about-top .about-info {
   padding-left: 50px;
-  max-width: 854px;
+  max-width: 540px;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@
   position: absolute;
   background: #fff;
   height: 2px;
-  width: 55%;
+  width: 200px;
   left: 0;
   bottom: 0;
 }
@@ -189,5 +189,13 @@
 
   .about-section.reversed .about-top {
     flex-direction: row-reverse;
+  }
+
+  .about-section.reversed .about-img h2 {
+    order: 2;
+  }
+
+  .about-section.reversed .about-img .about-links {
+   order: 1; 
   }
 }
