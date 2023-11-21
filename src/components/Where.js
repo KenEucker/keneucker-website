@@ -32,7 +32,7 @@ export default function How() {
               fromTo={"March 2018 - Present"}
               Desc={readMoreOpen &&
                 <p>
-                  BikeTag.Org is an open-source project that I started with a friend back in 2018 after they approached me with an app idea. The idea was simple: create a tool to play the game of BikeTag easier than it was currently being played. So that year we launched a tool that uploaded two images (found it tag, new mystery location) and provided fields for credit and a hint for the next round. That project continues to evolve and we have successfully scaled the project to include 50 cities across the world including: Indianapolis, Indiana, Inverness, Scotland, and Vienna, Austria! I started this endeavor as an entirely open source project. You can see how that project is <a href="https://github.com/keneucker/biketag-website/projects">managed on GitHub, here.</a>
+                  BikeTag.Org is an open-source project that I started with a friend back in 2018 after they approached me with an app idea. The idea was simple: create a tool to play the game of BikeTag easier than it was currently being played. So that year we launched a tool that uploaded two images (found it tag, new mystery location) and provided fields for credit and a hint for the next round. That project continues to evolve and we have successfully scaled the project to include 50 cities across the world including: Indianapolis, Indiana, Inverness, Scotland, and Vienna, Austria! I started this endeavor as an entirely open source project. You can see how that project is <a href="https://github.com/KenEucker/biketag-vue/issues">managed on GitHub, here.</a>
                 </p>
               }
             />
@@ -47,7 +47,7 @@ export default function How() {
                 <p>
                   I became a Black Rock Ranger in 2019 to be part of the peer support team for Burning Man Project events focusing on emergency response, harm reduction, and de-escalation, as well as empowerment and support, in Gerlach, Nevada, and worldwide. I began Rangering at Portland's Regional Burning Man event in 2016 -- an event in my own backyard. I moved to Gerlach, Nevada, to Ranger full-time in the area with both the Black Rock City Department of Public Works as well as Black Rock Desert Nevada Operations.<br/><br/>
                   As a Ranger, a participant, I walk around event spaces and engage with friends, some of whom I'm meeting for the first time, building upon a history of social capital for which participants can trust and depend on to be available for aid at any time.<br/><br/>
-                  not a cop ~ )'( ~ not your mom
+                  <a href="https://rangers.burningman.org/what-do-rangers-do/" alt="what do rangers do?">not a cop ~ )'( ~ not your mom</a>
                 </p>
               }
             />
