@@ -44,7 +44,7 @@ function index() {
             </p>
           </div>
         }
-        srcHeader={"/img/kendrid-spirit-brd.png"}
+        srcHeader={"/img/kendrid-spirit-at-the-10-7.jpg"}
         altHeader={"Ken Eucker"}
       />
 
