@@ -44,7 +44,7 @@ function index() {
             </p>
           </div>
         }
-        srcHeader={"/img/kendrid-spirit-at-the-10-7.jpg"}
+        srcHeader={"/img/kendrid-spirit-brd.png"}
         altHeader={"Ken Eucker"}
       />
 
@@ -113,7 +113,7 @@ function index() {
 
       {/* About Me personally */}
       <About
-        img={"/img/Ken_Eucker_BlackRock_Ranger.jpg"}
+        img={"/img/kendrid-spirit-at-the-10-7.jpg"}
         secondImg={"/img/brc-ranger-logo.png"}
         secondImgWidth={105}
         secondImgHeight={105}
